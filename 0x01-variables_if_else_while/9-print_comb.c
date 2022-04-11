@@ -3,7 +3,7 @@
 /**
  * main - Printing numbers in ascending order
  *
- * Result: Always (Success)
+ * Return: Always (Success)
  */
 
 int main(void)
