@@ -2,7 +2,7 @@
 
 /**
  * print_line - prints dashes
- *
+ * @n: integer
  * Return: always 0
  */
 
