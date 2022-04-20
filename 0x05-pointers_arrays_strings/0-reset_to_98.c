@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * reset_to_98 - This function takes a pointer to an int
+ *reset_to_98 - This function takes a pointer to an int
  * @n: pointer with address value
  *
  * Return: Always 0
