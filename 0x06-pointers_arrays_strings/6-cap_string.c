@@ -17,12 +17,13 @@ int isLower(char c)
  * Return: 1 if true
  */
 int isDelimiter(char c)
+
 {
 	int i;
 
-	char delimiter[] = " \t\n,;.!?\"(){}";
+	char delimiter[] = " \t\n,.!?\"(){}";
 
-	for (i = 0; i < 13; i++)
+	for (i = 0; i < 12; i++)
 		if (c == delimiter[i])
 			return (1);
 	return (0);
@@ -35,6 +36,7 @@ int isDelimiter(char c)
  */
 char *cap_string(char *s)
 {
+
 	char *ptr = s;
 
 	int foundDelimit = 1;
@@ -53,5 +55,6 @@ char *cap_string(char *s)
 			foundDelimit = 0;
 		s++;
 	}
+
 	return (ptr);
 }
