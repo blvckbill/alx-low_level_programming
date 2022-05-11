@@ -5,7 +5,7 @@
  * struct dog - structure definition of a dog
  * @name: character string
  * @age: int
- * @owner: char 
+ * @owner: char
  */
 typedef struct dog
 {
